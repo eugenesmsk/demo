@@ -3,7 +3,7 @@ package com.example.demo;
 public class NumberFilter {
 
     public boolean filter(int value) {
-        return value != 0;
+        return value > 0;
     }
 
 }
